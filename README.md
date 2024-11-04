@@ -48,8 +48,7 @@ No additional dependencies are required; the app is built using HTML, CSS, and v
 
 1. Add a Task: Type in the task description and either press Enter or click the "Add" button.
 2. Complete a Task: Click the checkbox next to a task to mark it as complete. The task text will have a strikethrough to indicate its status.
-3. Delete a Task: Click the trash icon on a task to delete it individually.
-4. Clear Completed Tasks: Click "Clear Completed" to remove all tasks marked as completed
+3. Clear Completed Tasks: Click "Clear Completed" to remove all tasks marked as completed
 
 ## Customization
 To customize the styles, edit assets/styles/style.css. For example, you can:
