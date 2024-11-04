@@ -1,5 +1,32 @@
-# IBM_Final_Project
- A web application that allows you to create tasks in list format that you are able to mark complete and delete
-![Screenshot (107)](https://github.com/ThyMo05e/IBM_Final_Project/assets/126653199/22beaace-e087-4833-9acf-0c9caea1fd2e)
-![Screenshot (108)](https://github.com/ThyMo05e/IBM_Final_Project/assets/126653199/9e62eaae-03da-4803-9c8a-df5b549095ba)
-![Screenshot (109)](https://github.com/ThyMo05e/IBM_Final_Project/assets/126653199/1756f610-58bd-496d-936a-51908f5f2592)
+# Task List Application
+
+A simple, interactive Task List application that allows users to add, mark, and remove tasks. Designed with a modern, clean interface and smooth animations for a seamless user experience.
+
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Code Structure](#code-structure)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Features
+
+- **Add Tasks**: Enter a task name and click "Add" or press `Enter` to add a new task to the list.
+- **Mark as Completed**: Click the checkbox next to each task to mark it as completed. Completed tasks are visually distinguished with a strikethrough effect.
+- **Clear Completed Tasks**: Click the "Clear Completed" button to remove all tasks marked as completed from the list.
+- **Overflow Management**: If tasks exceed the viewable area, the list becomes scrollable with a custom scrollbar style.
+
+## Demo
+
+![Demo of the Task List application](demo.gif) <!-- Include a GIF or screenshot of the app if available -->
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/task-list-app.git
