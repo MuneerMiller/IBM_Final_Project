@@ -20,7 +20,7 @@ A simple, interactive Task List application that allows users to add, mark, and 
 
 ## Demo
 
-![Demo of the Task List application](https://muneermiller.github.io/Task-List-Application/)
+https://muneermiller.github.io/Task-List-Application/
 
 
 ## Installation
