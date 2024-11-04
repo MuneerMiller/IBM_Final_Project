@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const taskInput = document.querySelector("#newTask input");
     const taskContainer = document.querySelector(".tasks");
+    const clearCompletedButton = document.querySelector("#clear-completed");
 
     taskInput.addEventListener("keyup", (e) => {
         if (e.key === "Enter") {
@@ -9,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     document.querySelector("#push").addEventListener("click", () => createTask());
+
+    clearCompletedButton.addEventListener("click", () => clearCompletedTasks());
 
     function createTask() {
         if (taskInput.value.trim() === "") {
@@ -23,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const checkbox = document.createElement("input");
         checkbox.type = "checkbox";
         checkbox.addEventListener("change", () => updateTask(checkbox));
-        
+
         const taskText = document.createElement("p");
         taskText.textContent = taskInput.value.trim();
 
@@ -54,6 +57,14 @@ document.addEventListener("DOMContentLoaded", () => {
             task.remove();
             toggleOverflow();
         }, 300);
+    }
+
+    function clearCompletedTasks() {
+        const completedTasks = document.querySelectorAll(".task input:checked");
+        completedTasks.forEach(taskCheckbox => {
+            const task = taskCheckbox.closest(".task");
+            removeTask(task);
+        });
     }
 
     function toggleOverflow() {

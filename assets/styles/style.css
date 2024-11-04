@@ -124,3 +124,18 @@ body {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+.clear-completed {
+    width: 100%;
+    padding: 10px;
+    background-color: #e57373;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clear-completed:hover {
+    background-color: #d32f2f;
+}
